@@ -21,7 +21,7 @@ from fastapi import FastAPI
 load_dotenv()
 brwoserless_api_key = os.getenv("BROWSERLESS_API_KEY")
 serper_api_key = os.getenv("SERP_API_KEY")
-
+openai_api_key = os.getenv("OPENAI_API_KEY")
 # 1. Tool for search
 
 
