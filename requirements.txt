@@ -1,7 +1,9 @@
+pip==23.2.1
 fastapi[all]
 openai
+python==3.10.11
 python-dotenv
 pydantic==1.*
 langchain
 bs4
-tiktoken
+tiktoken 
